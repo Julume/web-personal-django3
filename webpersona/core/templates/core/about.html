@@ -1,0 +1,25 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca De{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/abouto-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Acerca De</h1>
+    <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/avatarr.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Julexy Mera</h2>   
+          <p>Nacida en Portoviejo, Manabí-Ecuador. Cursa sus estudios en la Universidad Técnica de Manabí, en el cuarto semestre de la carrera Ingieneria en Sistemas de Informacion de la Facultad de Ciencias Informaticas.</p>
+          <p>Sus estudios de Primaria los realizo en la Unidad Educativa Mixta "San Andres" y el Bachillerato lo culmino en la Unidad Educativa Fiscal Técnico Santa Ana.</p>
+        </div>
+      </div>  
+    </div>
+{% endblock %}

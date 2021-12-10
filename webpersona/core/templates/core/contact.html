@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Contacto{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/contacto-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Contacto</h1>
+    <span class="subheading">Asesoría</span>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Contactenos para mayor información...</p>
+          <br>
+          <p><b>Teléfono:</b> +09 876 532 8768</p>
+          <p><b>Email:</b> usuarioaser@gmail.com</p>
+          <p><b>Honorarios:</b> 60€/h (precio base)</p>
+        </div>
+      </div>
+    </div>
+{% endblock %}
